@@ -1,0 +1,125 @@
+/*--=== RESET STYLE ===--*/
+* {
+    margin: 0;
+    font-family: tahoma;
+}
+/*--=== GLOBAL STYLE ===--*/
+.secao {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+p {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+/*--Seção 1 === LOGOTIPO E LINKS ===--*/
+.secao-1 {
+    background-color: #afddfb;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+.secao-1 img {
+    width: 150px;
+}
+.secao-1 p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.secao-1 a {
+    font-size: 15px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/*--Seção 2 === BANNER ===--*/
+.secao-2 {
+    margin-top: 50px;
+    padding-top: 0;
+}
+span {
+    font-weight: bold;
+}
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+h2 {
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+/*--Seção 3 === SOBRE ===--*/
+.img-secao-3 img {
+    width: 450px;
+}
+.texto-azul span {
+    color: #1d80c1;
+}
+
+/*--Seção 4 === SERVIÇOS ===--*/
+.secao-4, .secao-6 {
+    background-color: #1d80c1;
+}
+.secao-4 h2, .secao-6 h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+.secao-4 p {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+.texto-amarelo span {
+    color: #fff81b;
+}
+.secao-4 ul{
+    Margin: 40px auto;
+    width: 135px;
+}
+.secao-4 li {
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+/*--Seção 5 === CORRETORES ===--*/
+/*esilizado em seções anteriores*/
+
+/*--Seção 6 === CONTATO ===--*/
+
+.secao-6 p {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lista {
+    margin: 40px auto 40px;
+    list-style: none;
+    width: 210px;
+}
+.items {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.secao-6 li > a {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
