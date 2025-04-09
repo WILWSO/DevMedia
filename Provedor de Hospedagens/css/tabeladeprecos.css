@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+palette{
+    --azul: #2f86d6;
+    --blanca: #fff;
+    --blanca2: #f1f3f7;
+    --blanca3: #f6f6f6;
+    --gris: #a8a4a4; 
+    --azul-escura: #233032;
+    --azul-rgba: rgba(47, 134, 214, 1);
+}
+
+.texto-logo{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    padding: 15px 0px 0px 0px;
+    line-height: 30px;   
+}
+header{
+    width: 100% auto; /*auto permite que o fex obedça as margens*/
+    height: 100% auto;
+    display: flex; /*flexibilizo os containers dentro do conteiner que possui display-flex*/
+    justify-content: center; /*centralizo os containers horizontalmente detro do conteiner que possui display-flex*/
+    align-items: center; /*centralizo os containers verticalmente detro do conteiner que possui display-flex*/
+    padding: 10px 40px;
+    background-color: #2f86d6;
+    z-index: 1; /*coloco o header na frente de outros elementos*/
+}
+nav{
+    width: 60%;
+    text-align: right; /*alinho o texto dentro do container*/   
+}
+.texto-logo h1{    
+    font-size: 32px;
+    color: #000000;
+}
+.texto-logo p{
+    font-size: 16px;
+    color:#fff;   
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 10px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out; /*sugestão do copilot, não sei para que serve*/    
+}
+
+
+/*=========TABELA DE PLANOS=========*/
+.tabela-container caption{/*oculta o texto do caption*/
+   /* display: none; /*remove o texto do caption*/
+    visibility: hidden; /*oculta o texto do caption*/
+}
+.tabela-container{/*container da tabela de planos*/
+    width: 100% auto; /*auto width permite alinhar o texto horizontalmente*/
+    height: 100% auto; /*auto height permite alinhar o texto verticalmente*/
+    text-align: center; /*alinho o texto dentro do container*/
+    margin: 60px 60px;   
+}
+.tabela-precos{/*container da tabela de planos*/
+    width: 90%;
+    text-align: center;
+    margin: 40px auto; /*auto margin permite alinhar a tabela horizontalmente dentro do container*/
+    border-collapse: collapse; /*remove o espaço entre as bordas da tabela*/
+}
+.tabela-precos th, .tabela-precos td{/*estiliza cabeçalho e células da tabela*/
+    width: 17.5%; /*divide a tabela em 4 partes iguais*/
+   /* border-right: 1px solid #a8a4a4; /*borda das células*/
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 20px;
+}
+.dot-azul{
+    width: 15px; /*largura do ponto azul*/
+    height: 15px; /*altura do ponto azul*/
+    background-color: #2f86d6; /*cor do ponto azul*/
+    border-radius: 50%; /*deixa o ponto azul redondo*/
+    display: inline-block; /*deixa o ponto azul em linha com o texto*/
+    margin-right: 5px; /*margem direita do ponto azul*/
+}
+.tabela-precos tbody td:first-child{
+    text-align: left; /*alinha o texto da primeira coluna à esquerda*/
+    background-color: #f1f3f7; /*cor de fundo da primeira coluna*/
+    font-weight: 500; /*peso da fonte da primeira coluna*/
+    width: 30%; /*largura mínima da primeira coluna*/
+    border: 1px solid #fff;
+}
+.tabela-precos th:nth-child(1){/*pinta unica celula do cabeçalho de outra cor*/
+    background-color: #fff; /*cor de fundo da primeira coluna*/
+}
+.tabela-precos tr {/*altura de todas as linhas da tabela*/
+    line-height: 25px; /*altura da linha da tabela*/
+}
+.tabela-precos th{/*bordas insternas do cabeçalho da tabela*/
+    background-color: #f1f3f7;/*cor do cabeçalho da tabela*/   
+    line-height: 35px; /*altura da linha do cabeçalho da tabela*/
+    border: 1px solid #fff;
+}
+.tabela-precos th small{/*fontes do cabeçalho da tabela*/
+    font-size: 14px; /*tamanho da fonte do texto pequeno*/
+    color: #a8a4a4; /*cor do texto pequeno*/
+    font-weight: 400; /*peso da fonte do texto pequeno*/
+}
+.tabela-precos th strong{/*fontes do cabeçalho da tabela*/
+    font-size: 22px; /*tamanho da fonte do texto forte*/
+    color: #000000; /*cor do texto forte*/
+    font-weight: 600; /*peso da fonte do texto forte*/
+}
+.tabela-precos td {/*bordas internas das células da tabela*/
+    border: 1px solid #f1f3f7; 
+}
+
+
+/*=========RODAPÉ=========*/
+.rodape{
+    width: 100% auto; /*auto permite que o flex obedça as margens*/
+    height: 100% auto;
+    display: flex; /*flexibilizo os containers dentro do conteiner que possui display-flex*/
+    justify-content: center; /*centralizo os containers horizontalmente detro do conteiner que possui display-flex*/
+    align-items: center; /*centralizo os containers verticalmente detro do conteiner que possui display-flex*/
+    flex-direction: column;
+    margin: 3px auto;
+    padding-top: 25px;   
+    background-color: #2f86d6; /*cor de fundo do rodapé*/
+}
+.rodape-paragrafo{
+    font-size: 18px; /*tamanho da fonte do parágrafo*/
+    color: #fff; /*cor do parágrafo*/
+    margin-bottom: 50px;
+   
+}
+.card-logo{/*estilização pode transformar em botão*/
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 26px;
+    /* Agrega isso abaixo e faça um botão
+    border-radius: 8px;
+    border: 4px solid red;
+    background-color: #2f86d6; 
+    box-shadow: */
+}
+.card-logo img{
+    width: 80px; /*largura da imagem*/
+    height: 80px; /*altura da imagem*/
+    object-fit: contain; /*mantém a proporção da imagem*/
+    margin-right: 20px; /*margem direita da imagem*/
+} 
+.card-logo h3{
+    font-size: 24px;
+    margin: 0px 0px 7px 0px;
+    font-size: 1.5em; /*tamanho da fonte do título*/
+    color: #000000; /*cor do título*/
+}
+.card-logo p {
+    font-size: 16px;
+    margin: 0px; /*remove a margem do parágrafo*/;
+    color: #fff;
+}
+
+
+/*=========RODAPÉ DEVELOPER=========*/
+.dev{
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    color: #233032;
+    margin: 0px 0px;
+    padding: 20px 0px;
+    text-align: center; /*alinho o texto dentro do container*/  
+    background-color: #fff; /*cor de fundo do rodapé*/
+}
+.dev p{
+    font-size: 16px;
+    color: #233032;
+    text-align: center; /*alinho o texto dentro do container*/  
+}
+.dev strong{
+    color: #2f86d6;
+    font-weight: 600;
+}

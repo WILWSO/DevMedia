@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+palette{
+    --azul: #2f86d6;
+    --blanca: #fff;
+    --blanca2: #f1f3f7;
+    --blanca3: #f6f6f6;
+    --gris: #a8a4a4; 
+    --azul-escura: #233032;
+    --azul-rgba: rgba(47, 134, 214, 1);
+}
+.img-topo{
+    width: 63px;   
+}
+.texto-logo{
+    width: 60%;
+    height: 100% auto;
+    margin-left: 10px;
+    padding: 15px 0px 0px 0px;
+    line-height: 30px;
+    vertical-align: middle; /*alinha o texto verticalmente dentro do container*/
+}
+header{
+    width: 100% auto; /*auto permite que o fex obedça as margens*/
+    height: 100% auto;
+    display: flex; /*flexibilizo os containers dentro do conteiner que possui display-flex*/
+    justify-content: center; /*centralizo os containers horizontalmente detro do conteiner que possui display-flex*/
+    align-items: center; /*centralizo os containers verticalmente detro do conteiner que possui display-flex*/
+    padding: 10px 40px;
+    margin: 20px 40px 20px 40px;
+    background-color: var(--blanca);
+}
+nav{
+    width: 100%;
+    text-align: right; /*alinho o texto dentro do container*/   
+}
+.texto-logo h1{    
+    font-size: 32px;
+    color: #233032;
+}
+.texto-logo p{
+    font-size: 16px;
+    color: #2f86d6;   
+}
+nav a{
+    text-decoration: none;
+    color: #233032;
+    font-size: 18px;
+    padding: 10px 10px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out; /*sugestão do copilot, não sei para que serve*/    
+}
+
+/*=========BANNER=========*/
+.banner{
+    width: 100% auto; /*auto permite que o fex obedça as margens*/
+    height: 100% auto;
+    background-color:#2f86d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.texto-banner{
+    color: #fff;
+    margin: 20px 40px 20px 40px;
+    width: 100%;
+    height: 100% auto; /*auto ALINHA o texto verticalmente dentro do container sem flex*/
+    text-align: left;
+}
+.texto-banner h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.texto-banner p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.banner img{
+    width: 100%;
+    height: 100% auto;
+    object-fit: cover; /*corta a imagem para preencher o container*/
+    border-radius: 10px;
+}
+
+
+/*=========1º ANÚNCIO=========*/
+.anuncio1{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between; /*space-between alinha o primeiro item à esquerda e o segundo à direita automaticamente*/
+    align-items: center; 
+    background-color: #233032 ;
+    padding: 10px 40px;
+    color: #fff;
+    z-index: 1; /*coloca o anuncio acima do banner*/
+}
+.texto-anuncio1{
+    width: 70%;
+    height: 80px auto;
+    align-items: center;
+    text-align: left;
+    background-color: #233032;   
+}
+.texto-anuncio1 h2{
+    font-size: 24px;
+    font-weight: 600;
+}  
+.texto-anuncio1 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.anuncio1 a{
+    width: 100% auto; /*auto width permite alinhar o texto horizontalmente*/
+    height: 50px auto; /*auto height permite alinhar o texto verticalmente*/
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;    
+    padding: 10px 10px;
+    margin: 15px 15px;
+    font-weight: 600;
+    background-color: #2f86d6;  
+}
+.anuncio1 a:hover{
+    color: #2f86d6;
+    background-color: #f1f3f7;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out; /*velocidade das modificações do hover*/
+}
+
+
+/*=========INFORMAÇÕES=========*/
+.info-container{/*container da seção que guarda o container de cards*/
+    width: 100% auto; /*auto width permite alinhar o texto horizontalmente*/
+    height: 100% auto; /*auto height permite alinhar o texto verticalmente*/
+    display: flex;
+    flex-direction: column; /*alinha os containers abaixo do texto dentro do container que possui display-flex na horizontal*/
+    justify-content: space-between; /*space-between alinha o primeiro item à esquerda e o segundo à direita automaticamente*/
+    align-items: center; 
+    text-align: center; /*alinha o texto dentro do container*/
+    background-color: #fff;
+    padding: 10px 40px;
+    color: #233032;
+    z-index: 1; /*bring text to front*/
+}
+.informacao{/*container de cards*/
+    width: 100%;
+    height: 100% auto;    
+    text-align: center;
+    display: flex;
+    flex-direction: row; /*alinha os containers dentro do container que possui display-flex na horizontal*/
+    justify-content: space-between; /*space-between alinha o primeiro item à esquerda e o segundo à direita automaticamente*/
+    align-items: center; 
+    flex-direction: row; /*alinha os containers dentro do container que possui display-flex na vertical*/
+    margin: 5% 0px;
+}
+.informacao img{
+    width: 40%;
+    height: 100%; 
+    bottom: 0;
+}
+.informacao p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.info-item{/*cards (cada um)*/
+    width: 100%;
+    height: 100% auto;  
+}
+.info-container h2{
+    font-size: 24px;
+    margin: 5% 0px; 
+    text-align: center;  
+}
+.info-container h2 span{
+    color: #2f86d6;
+}
+
+
+/*=========TABELA DE PLANOS=========*/
+.planos-container{
+    width: 100% auto; /*auto width permite alinhar o texto horizontalmente*/
+    height: 100% auto; /*auto height permite alinhar o texto verticalmente*/
+    text-align: center; /*alinho o texto dentro do container*/
+    background-color: #f1f3f7;  
+    padding-bottom: 4%; 
+    border-top: 1px solid #fff; /*borda do container*/
+}
+.tabela-planos{/*container da tabela de planos*/
+    width: 80% auto;
+    border-collapse: collapse; /*remove os espaços entre as bordas das células*/
+    text-align: center;
+    margin: 40px auto; /*centraliza a tabela no container*/   
+    box-shadow: 0px 0px 25px 12px #2f86d6; /*sombra da tabela*/
+    border: 3px solid #2f86d6; 
+}
+.tabela-planos th img{/*imagem do logo dentro da tabela*/
+    width: 100px;
+    height: auto;
+    display: block; /*remove o espaço entre a imagem e o texto*/
+    margin: 0 auto 8px; /*centraliza a imagem*/
+    padding: 20px 10px;
+}
+.tabela-planos th{
+    background-color: #fff;/*cor do cabeçalho da tabela*/     
+}
+.tabela-planos th, .tabela-planos td{/*estiliza cabeçalho e células da tabela*/
+    width: calc(100% / 4); /*divide a tabela em 4 partes iguais*/
+    border-right: 1px solid #a8a4a4; /*borda das células*/
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 20px;
+}
+.tabela-planos tr {
+    line-height: 20px; /*altura da linha*/
+}
+.tabela-planos tr:nth-of-type(even){/*pinta as células pares*/
+    background-color: #f1f3f7;
+}
+.tabela-planos tr:nth-of-type(odd){/*pinta as células impares*/
+    background-color: #fff;
+}
+.tabela-planos td small{
+    font-size: 13px;
+    font-weight: 400;
+    color: #a89f9f;
+}
+.planos-container caption{/*oculta o texto do caption*/
+    display: none; /*remove o texto do caption*/
+   /* visibility: hidden; /*oculta o texto do caption*/
+}
+.planos-container h2{
+    font-size: 24px;
+    margin: 20px 0px; 
+    text-align: center;      
+}
+.planos-container h2 span{
+    color: #2f86d6;
+}
+
+
+/*=========2º ANUNCIO=========*/
+.anuncio2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between; /*space-between alinha o primeiro item à esquerda e o segundo à direita automaticamente*/
+    align-items: center; 
+    background-color: #2f86d6;
+    padding: 10px 40px;
+    color: #fff;
+    z-index: 1; /*coloca o anuncio acima do banner*/
+}
+.texto-anuncio2{
+    width: 70%;
+    height: 80px auto;
+    align-items: center;
+    text-align: left;  
+}
+.texto-anuncio2 h2{
+    font-size: 24px;
+    font-weight: 600;
+}  
+.anuncio2 a{
+    width: 100% auto; /*auto width permite alinhar o texto horizontalmente*/
+    height: 50px auto; /*auto height permite alinhar o texto verticalmente*/
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;    
+    padding: 10px 10px;
+    margin: 15px 15px;
+    font-weight: 600;
+    background-color: #233032;  
+}
+.anuncio2 a:hover{
+    color: #f1f3f7;
+    background-color: #2f86d6;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out; /*velocidade das modificações do hover*/
+}
+
+
+/*=========RODAPÉ=========*/
+.rodape{
+    width: 100% auto; /*auto permite que o fex obedça as margens*/
+    height: 100%;
+    display: flex; /*flexibilizo os containers dentro do conteiner que possui display-flex*/
+    justify-content: center; /*centralizo os containers horizontalmente detro do conteiner que possui display-flex*/
+    align-items: center; /*centralizo os containers verticalmente detro do conteiner que possui display-flex*/
+    flex-direction: column;
+    margin: 3% 0px;
+    padding: 10px 40px;   
+    background-color: #fff;  
+}
+.img-rodape{
+    width: 63px; 
+}  
+.texto-img h1{    
+    font-size: 32px;
+    color: #233032;   
+}
+.texto-img p{
+    font-size: 16px;
+    color: #2f86d6;  
+}  
+.texto-img{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px;
+    padding: 15px 0px;
+    line-height: 30px;
+    text-align: center;   
+}
+.texto-contato{
+    width: 100%;
+    height: 100% auto;
+    text-align: center; /*alinho o texto dentro do container*/  
+    line-height: 35px;    
+    margin: 3% 0px;
+}
+.rodape-dev{
+    width: 100%;
+    height: 50px auto;
+    font-size: 16px;
+    color: #233032;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    text-align: center; /*alinho o texto dentro do container*/  
+    background-color: #f1f3f7;
+}
+.rodape-dev p{
+    font-size: 12px;
+    color: #233032;
+    text-align: center; /*alinho o texto dentro do container*/  
+}
+.rodape-dev strong{
+    color: #2f86d6;
+    font-weight: 600;
+}
