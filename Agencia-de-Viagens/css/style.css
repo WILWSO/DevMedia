@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Imagem salva na pasta img */
+.secao-2 {
+    background-image: url('img/img-fundo.jpg');
+    
+  }
