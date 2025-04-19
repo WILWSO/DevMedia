@@ -1,0 +1,245 @@
+/*PALETA DE CORES ---- #3c184e; #fff; #1f26875e; #0000005c; #ffffffc4;  ----*/
+
+/*===== RESET BASICO =====*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: #fff;
+   font-family: sans-serif;
+   line-height: 1.6;
+}
+
+/*===== BANNER =====*/
+/*===== RESPONSIVIDADES BANNER=====*/
+@media (mask-width: 768px) {
+   .banner {
+      padding: 80px 40px;
+   }
+   .titulo-banner {
+      padding: 20px;
+      margin: 30px auto 0;
+   }
+   .titulo-banner h1 {
+      font-size: 30px;
+   }
+   .titulo-banner p {
+      width: 100%;
+      font-size: 16px;
+   }
+}
+.banner {
+   background-image: url("../img/banner-topo.jpg"); 
+   /* (../) es porque el achivo css que va buscar a la imagen 
+   no está en el mismo nivel de la imagen. Para regresar al nivel
+   de la foto hay que poner ../img  */
+   background-position: center; 
+   background-size: cover;
+   width: 100%;
+   padding: 120px 80px;
+   position: relative;
+   text-align: center;
+}
+.titulo-banner {
+   max-width: 90%;
+   border-radius: 12px;
+   padding: 60px 20px;
+   margin: 70px auto 0;
+   background-color: #ffffffc4;
+   box-shadow: 0 8px 32px #1f26875e;
+}
+.titulo-banner h1 {
+   font-size: 60px;
+   color: #3c184e;
+   text-align: center;
+   font-weight: 800;
+   margin: 0 0 40px;
+}
+.titulo-banner p {
+   font-size: 20px;
+   margin-top: 12px;
+   width: 200px;
+   border-radius: 10px;
+   background-color:  #3c184e;
+   padding: 10px 25px;
+   margin: 0 auto; 
+   text-align: center;
+}
+.img-logo {
+   width: 30px;
+   margin-right: 5px;
+}
+.logotipo-banner {
+   max-width: 250px;
+   color: #3c184e;
+}
+.logotipo-banner span {
+   font-size: 35px;
+   margin: 0 0 5px 0;
+}
+.logotipo-banner p {
+   font-size: 14px;
+   margin: 0;
+   text-align: center;
+}
+.link-topo {
+   text-decoration: none;
+   color: #ffff;
+}
+.logo-redes{
+   width: 20px;
+}
+.textos-destaque {
+   font-weight: bold;
+   font-style: italic;
+}
+
+/*===== SERVIÇOS =====*/
+/*===== RESPONSIVIDADES SERVIÇOS =====*/
+@media (max-width: 768px) {
+  .servicos-container-pai {
+   max-width: 100%;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 20px;
+   }
+   .img-servicos {
+      max-width: 100%;
+      flex-direction: column;
+   }
+   .img-servicos img {
+      width: 100%;
+   }
+   .lista-servicos {
+      max-width: 100%;
+   }
+}
+.servicos-container-pai {
+   max-width: 900px;
+   margin: auto;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 12px;    
+}
+.img-servicos {
+   max-width: 700px; /* el "auto" es para no crear scroll horizontal */ 
+   margin: 1px auto; /* 2VALORES = 1.top/bottom 2.right/left */
+   text-align: center;  
+   flex: 1 1 auto; /*simplificação de flex-frow + flex-*/
+   flex-wrap: wrap;
+   display: flex;
+   max-width: 250px;   
+}
+.img-servicos img {
+   width: 100% auto;
+   border-radius: 5px;
+   box-shadow: 3px 6px 10px 6px #0000005c;
+   flex-grow: 1;   
+   border: 2px solid #fff;
+   margin: 5px auto;
+}
+.servicos h3 {
+   font-size: 36px;
+   color: #3c184e;
+   text-align: center;
+   margin: 50px 0 45px 0;  
+}
+.lista-servicos {
+   max-width: 800px;
+   margin: 0 auto 50px; /* 3VALORES = 1.top 2.right/left 3.bottom*/
+   color: #3c184e;   
+}
+.lista-servicos li {
+   font-size: 20px;
+   margin: 0 0 20px;
+}
+.redes-sociais {
+   padding: 120px 80px;
+   background-color: #3c184e;
+   text-align: center;
+}
+.redes-sociais p {
+   max-width: 800px;
+   margin: 0 auto 50px;
+   font-size: 40px;
+   color: #fff;
+   text-align: center;
+}
+.links-redes a {
+   text-decoration: none;
+   margin: 0 20px;
+}
+.links-redes img {
+   height: 50px;
+   width: 50px;
+}
+.marcas {
+   text-align: center;
+   width: 100%;
+}
+.marcas-subtitulo {
+   font-size: 36px;
+   color: #3c184e;
+   text-align: center;
+   margin: 50px 0 20px;
+   position: top;
+}
+.marcas-container-pai {
+   width: 100% auto;
+   padding: 40px 80px 80px; 
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.marcas-container-filho {
+   max-width: 800px;
+   margin: 0 0 auto;
+   text-align: center;   
+}
+.marcas-container-filho img {
+   width: 148px;
+   height: 148px;
+   margin: 0 15px;
+}
+.geolocalizacao {
+   width: 100% auto;
+   padding: 120px 80px;   
+   text-align: center; 
+}
+.geolocalizacao h3 {
+   font-size: 36px;
+   color: #3c184e;
+   text-align: center;
+   margin: 0 0 45px;
+}
+.geolocalizacao p {
+   font-size: 20px;
+   color: #3c184e;
+   text-align: center;
+   margin: 0 0 45px;
+}
+.geolocalizacao iframe {
+   width: 800px;
+   height: 450px;
+   border: 3px dashed #3c184e;
+   box-shadow: 0 8px 32px #1f26875e;
+   border-radius: 7px;
+}
+.rodape {
+   width: 100%;
+   padding: 10px 0;
+   background-color: #3c184e;
+}
+.rodape p {
+   color: #fff;
+   font-size: 12px;
+   text-align: center;
+}
+.rodape-destaque {
+   font-weight: bold;
+}
