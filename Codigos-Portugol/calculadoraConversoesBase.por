@@ -1,6 +1,5 @@
-//Essa é a solução que encontramos para a aplicação, 
-//não tem problema se a sua solução for difrerente, 
-//o importante é alcançar o objetivo
+ 
+//4ª MISSÃO-MODULO 1 - PORTUGOL
 programa
 {
 	
@@ -60,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1365; 
+ * @POSICAO-CURSOR = 24; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
