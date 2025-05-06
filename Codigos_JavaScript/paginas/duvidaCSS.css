@@ -1,0 +1,25 @@
+/*span .texto-conteudo, .texto-conteudo .texto-destaque {
+    font-weight: bold;
+    color: #424242;
+} */
+
+.texto-destaque, span {
+    font-weight: bold;
+    color: #424242;
+     /*ESTILIZA todos os SPAN's que estão dentro dessa classe,
+     e os que estão FORA ou não pertençam a classe alguma*/
+}
+
+.texto-conteudo span {
+    font-weight: bold; 
+    /*si esta classe estiver dentro de um parágrafo, ESTILIZA 
+    todos os SPAN's que estão dentro do parágrafo, mesmo que 
+    os SPAN'S se estilizem por outas classes*/
+    
+} 
+
+/*
+p span {
+    font-weight: bold;
+}
+  */

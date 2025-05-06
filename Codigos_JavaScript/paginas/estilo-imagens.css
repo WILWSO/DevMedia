@@ -1,0 +1,14 @@
+.imagem{
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+.imagem .imagem-destaque{
+    background-color: lightcoral;
+    width: 350px;
+    border: 2px dashed #454545;
+}
+.imagem-especial{
+    border: 5px solid #efefef;
+}

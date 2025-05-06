@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100% auto; /*auto permite que o fex obedça as margens*/
+    height: 100% auto;
+    display: flex; /*flexibilizo os containers dentro do conteiner que possui display-flex*/
+    justify-content: center; /*centralizo os containers horizontalmente detro do conteiner que possui display-flex*/
+    align-items: center; /*centralizo os containers verticalmente detro do conteiner que possui display-flex*/
+    flex-direction: column; /*alinha os containers abaixo do texto dentro do container que possui display-flex na horizontal*/
+    padding: 10px 40px;
+    margin: 20px 40px 20px 40px;
+    background-color: #fffaff;
+}
+.cards{
+    width: 40%;
+    height: 100%;
+    justify-content: center; /*centralizo os containers horizontalmente detro do conteiner que possui display-flex*/
+    align-items: center; /*centralizo os containers verticalmente detro do conteiner que possui display-flex*/  
+}
+h1, .codigo  {
+    margin: 40px;
+    color: #1e1e1e;  
+    max-width: 800px;   
+}
+.codigo {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px; 
+    background-color: #1e1e1e; 
+    padding: 15px;
+    margin: 0 20px 20px;
+    border-radius: 0 0 10px 10px;   
+}
+.caput  {
+    background-color: #5d5d5d; 
+    color: #d4d4d4;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    border-radius: 10px 10px 0 0;
+}
+.comentarios{
+    font-size: 16px;
+    margin-left: 25px;  
+}
+.negro {
+    color: #000000; /* #1e1e1e - o con tono más suave*/
+}
+.blanco {
+    color: #ffffff; /* #d4d4d4 - o tono de gris más claro*/  
+}
+.azul-brillante {
+    color: #569cd6; /*palabras como meta, title y href*/
+}
+.naranja-suave {
+    color: #d69d85; /* cadena de textos entre comillas*/
+}
+.verde-azulado {
+    color: #4ec9b0; /*etiquetas como h1, body*/
+}
+.verde-oliva {
+    color: #6a9955; /* comentarios explicativos*/
+}
