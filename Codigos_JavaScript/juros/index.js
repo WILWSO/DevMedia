@@ -22,7 +22,7 @@ if(valor_divida > 0) { //VALIDAÇÃO 1 - O valor da dívida deve ser maior que z
         console.log("\nValor original da dívida: R$ "+valor_divida+",00");
         console.log("Dias atrasados: "+dias_vencimento);
         console.log("Taxa de Juros: "+valor_juros+"%");
-        console.log("Valor total com juros: R$ "+valor_total.tofixed(2));
+        console.log("Valor total com juros: R$ "+valor_total);
     }
     else { //VALIDAÇÃO 2 - se os dias de atraso forem <= que zero
         console.log("Você está em dia!");
