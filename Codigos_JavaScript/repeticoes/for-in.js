@@ -30,7 +30,7 @@ console.log("\n==============//FOR .. IN - CARRO COM DESCONTO//===============\n
     let percentual_desconto = 5;
     for (let propriedade in carro) { //inica o loop criando uma variável para o iterador, que irá percorrer todas as propriedades do objeto carro
         if (propriedade == "preco") { //se a propriedade for preco
-            let preco = propriedade; //atribui o valor da propriedade a variável preco
+            let preco = propriedade; //atribui o valor da propriedade à variável preco
             let desconto = carro[preco] * percentual_desconto / 100; //calcula o desconto
             let novo_preco = carro[preco] - desconto; //calcula o novo preço
             console.log("O preço do carro com desconto de "+percentual_desconto+"% é: R$"+novo_preco.toFixed(2)); //exibe o novo preço do carro com desconto

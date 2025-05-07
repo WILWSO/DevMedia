@@ -1,8 +1,7 @@
  
 //4ª MISSÃO-MODULO 1 - PORTUGOL
 programa
-{
-	
+{	
 	funcao inicio()
 	{
 		inteiro tipoConversor
@@ -59,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 24; 
+ * @POSICAO-CURSOR = 321; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
