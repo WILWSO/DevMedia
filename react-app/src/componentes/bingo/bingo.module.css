@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  max-width: 748px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 20px;
+  padding: 20px;
+}
+
+.numero {
+  width: 32px;
+  height: 32px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  color: #333;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sorteado {
+  background: dodgerblue;
+  color: #fff;
+}
+
+.ultimo {
+  background: red;
+  color: #fff;
+}
+
+.penultimo {
+  background: orange;
+  color: #fff;
+}

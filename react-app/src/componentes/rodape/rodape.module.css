@@ -1,0 +1,26 @@
+.container_rodape {
+  padding: 20px;
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: grey;
+}
+
+.container_rodape2 {
+  background-color: #d34040;
+  color: #fff;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}

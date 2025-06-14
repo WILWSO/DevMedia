@@ -1,0 +1,74 @@
+.button_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+  margin: 5px auto;
+  padding: 10px;
+  background: #f9f9;
+}
+
+.button_login {
+  max-width: 250px;
+  max-height: 80px;
+  padding: 20px 60px;
+  background-color:blue;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.button_logout {
+  max-width: 250px;
+  max-height: 80px;
+  padding: 20px 60px;
+  background-color:white;
+  font-size: 18px;
+  font-weight: 600;
+  color: blue;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.button_login:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.button_logout:hover {
+  background-color: blue;
+  color: white;
+}
+
+.textLabel_Btnlogin {
+  font-size: 16px;
+  font-weight: 400;
+  color: blue;
+  margin: 8px;
+  text-align: center;
+  transition-delay: 0.5s;
+  transition: all 0.3s ease;
+}
+
+.textLabel_BtnNumAleatorio {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin: 8px;
+  text-align: center;
+}
+
+.BtnRetorno {
+  padding: 20px 60px;
+  background-color: red;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+}

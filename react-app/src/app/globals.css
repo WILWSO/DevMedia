@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}; 
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; 
+      /*faz com que o elemento <main> ocupe todo o espaço disponível entre o topo (header) e o rodapé, dentro de um container flex (no caso, o <body>).
+      Isso garante que o conteúdo principal cresça para preencher a tela, empurrando o rodapé para o final da página, mesmo que haja pouco conteúdo.
+      O main se expande para ocupar o espaço livre, ajudando o rodapé a ficar sempre no final da página.*/
+}
