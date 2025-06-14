@@ -8,3 +8,6 @@ let clientes_array = [
 console.log(clientes_array[1].nome); //Tânia - imprime o nome do cliente na posição 1
 console.log(clientes_array[2].id); //3 - imprime o id do cliente na posição 2
 console.log(clientes_array[0].telefone); //99999-6565 - imprime o telefone do cliente na posição 0
+
+//así tambien se puede aceder a una propiedad de un objeto en um array
+console.log(clientes_array[0]["nome"]) //Monica

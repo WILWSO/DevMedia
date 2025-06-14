@@ -64,3 +64,44 @@ console.log("\n==============//FOR - MESES DO ANO//===============\n");
         } //isso significa que não será listado o aluno encontrado na iteração, mas todos os demais. 
         console.log("id: "+ aluno.id + " - Nome: " + aluno.nome + " - Média: " + aluno.media); //exibe o id, nome e média do aluno
     } //exibe o id, nome e média de todos os alunos, exceto os reprovados (encntrados com media < 6).
+
+    //separador de resultados
+    console.log("\n==============//FOR - ARRAY DE STRINGS/===============\n");
+
+    //EXEMPLO DE EXTRAÇÃO DE VALORES DO ARRAY COM O FOR
+    let alunos = ["Carlos", "Pablo", "Juliana", "Ingrid"]; //array de alunos
+    let total_alunos = alunos.length; //total de alunos
+    for ( let contador=0; contador < total_alunos; contador++ ) {
+    console.log(alunos[contador]); //exibe o aluno
+    } //exibe o aluno
+
+    //separador de resultados
+    console.log("\n==============//FOR Y FOR..IN JUNTOS//===============\n");
+
+    //TESTE DE FOR JUNTO COM FOR..IN - EXEMPLO 1
+    let produtos = [
+        { id: 1, nome: "pizza", preco: 50 },
+        { id: 2, nome: "macarronada", preco: 25 },
+        { id: 3, nome: "lasanha", preco: 45 },
+        { id: 4, nome: "nhoque", preco: 30 }
+    ];    
+    let desconto = 5;     
+    for(let contador=0; contador<produtos.length; contador++) {    
+        let produto = produtos[contador];    
+        for(let propriedade in produto) {    
+            if ( propriedade == "preco" ) {    
+                let preco = propriedade;    
+                let novo_preco = produto[preco] - desconto;    
+                console.log("preço atualizado: R$" + novo_preco + ",00");    
+            } else {    
+                console.log(propriedade + ": " + produto[propriedade]);
+            }    
+        }    
+        console.log("\n");
+    }
+
+    //separador de resultados
+    console.log("\n==============//Resultado do código//===============\n");
+
+
+    

@@ -18,8 +18,8 @@ console.log(mensagem); //exibe a mensagem formatada
 
 // separador de resultados
 console.log("\n==============//SELECIONANDO STRING - EXEMPLO 3//===============\n");
-
 //EXEMPLO 2 
+
 let linguagem = "JavaScript";
 let stack = "mobile";
 
