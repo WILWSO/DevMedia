@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vh;
+  gap: 12px;  
   margin: 5px auto;
   padding: 10px;
   background: #f9f9;
@@ -12,7 +12,7 @@
 .button_login {
   max-width: 250px;
   max-height: 80px;
-  padding: 20px 60px;
+  padding: 20px 20px;
   background-color:blue;
   font-size: 18px;
   font-weight: 600;
@@ -25,7 +25,7 @@
 .button_logout {
   max-width: 250px;
   max-height: 80px;
-  padding: 20px 60px;
+  padding: 20px 20px;
   background-color:white;
   font-size: 18px;
   font-weight: 600;
@@ -55,12 +55,12 @@
   transition: all 0.3s ease;
 }
 
-.textLabel_BtnNumAleatorio {
+.textLabel_BtnGerarNumAleatorio {
   font-size: 16px;
   font-weight: 400;
   color: black;
   margin: 8px;
-  text-align: center;
+  text-align: center; 
 }
 
 .BtnRetorno {
@@ -71,4 +71,23 @@
   color: white;
   text-decoration: none;
   border-radius: 40px;
+}
+
+.button_zerar {
+  background-color: #fff;
+  color: #e53935;
+  border: 2px solid #e53935;
+  border-radius: 6px;
+  padding: 0 18px;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 40px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-left: 4px;
+}
+
+.button_zerar:hover {
+  background: #e53935;
+  color: #fff;
 }

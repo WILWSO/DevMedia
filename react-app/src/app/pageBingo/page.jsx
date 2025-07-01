@@ -5,7 +5,7 @@ import estilos from './pageBingo.module.css'; // Importando o CSS específico pa
 export default function PageBingo() {
     return (
         <div className={estilos.container_pageBingo}>
-            <h2>bi8ngo </h2>  
+            <h2>bingo </h2>  
             <Bingo />  {/* chama o componente Bingo */}
             <BtnRetorno /> {/* Botão de retorno para a página inicial */}           
         </div>

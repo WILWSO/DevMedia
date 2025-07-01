@@ -1,0 +1,46 @@
+.secao_categorias {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.container_botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container_botoes button {
+  padding: 10px 0px;
+  flex: 1 1 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+}
+
+.container_botoes button:hover,
+.container_botoes button:focus{
+  background-color: goldenrod;
+}
+
+.icone {
+  width: 20px;
+  height: auto;
+}
+
+.acenderBtn {
+  background-color: goldenrod; /* Cor de fundo do botão quando ativo */
+  color: blue; /* Cor do texto do botão quando ativo */
+  box-shadow: 0 2px 8px rgba(26,115,232,0.10);
+}
+.apagarBtn {
+  background: #f0f0f0;
+  color: #333;
+}

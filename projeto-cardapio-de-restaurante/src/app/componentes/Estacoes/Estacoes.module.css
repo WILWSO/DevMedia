@@ -1,0 +1,69 @@
+.secao_estacoes {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.container_botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container_botoes button {
+  padding: 10px 0px;
+  flex: 1 1 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+}
+
+.container_botoes button:hover,
+.container_botoes button:focus {
+  background: #d0d3d6; /* #1a73e8 Muda o fundo do botão ao passar o mouse ou focar */
+  color: #333; /* Muda a cor do texto para azul ao passar o mouse ou focar no botão */
+  outline: orange; /* Adiciona um contorno laranja ao botão quando estiver em foco */
+}
+
+@media (max-width: 700px) {
+  .secao_estacoes {
+    padding: 1rem 0.5rem;
+  }
+  .container_botoes button {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .secao_estacoes {
+    margin: 0 0 1rem 0;
+    padding: 0.7rem 0.2rem;
+  }
+  .container_botoes {
+    gap: 0.5rem;
+  }
+  .container_botoes button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+  }
+}
+
+.acenderBtn {
+  background: #d0d3d6; 
+  color: #333;
+  box-shadow: 0 2px 8px rgba(26,115,232,0.10);
+}
+
+.apagarBtn {
+  background: #ffffff; /* Cor de fundo do botão quando inativo */
+  color: goldenrod; /* Cor do texto do botão quando inativo */
+  box-shadow: none; /* Sem sombra para o botão inativo */
+}

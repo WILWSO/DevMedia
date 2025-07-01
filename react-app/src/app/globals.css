@@ -17,3 +17,17 @@ main {
       Isso garante que o conteúdo principal cresça para preencher a tela, empurrando o rodapé para o final da página, mesmo que haja pouco conteúdo.
       O main se expande para ocupar o espaço livre, ajudando o rodapé a ficar sempre no final da página.*/
 }
+
+:root {
+  --azul-principal: #169EDA;
+  --azul-claro: #8596A1;
+  --azul-medio: #667A83;
+  --cinza-claro: #CDCDCD;
+  --cinza-escuro: #323232;
+  --azul-destaque: #3368E4;
+  --azul-escuro: #0054B6;
+  --azul-vivo: #378EF0;
+  --branco: #FFFFFF;
+  --cinza-bg: #EAEAEA;
+  --cinza-bg2: #F5F5F5;
+}

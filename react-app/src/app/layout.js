@@ -1,6 +1,6 @@
 import "./globals.css";
 import Rodape from "@/componentes/rodape/Rodape";
-import Topo from "@/componentes/topo/Topo.jsx";
+import Navbar from "@/componentes/navbar/NavBar.jsx";
 
 export const metadata = {
   title: "Rotas com React",
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="es-ar">
       <body> 
         <header>
-          <Topo />
+          <Navbar />
         </header>        
         <main>
 
