@@ -2,8 +2,8 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "RESTAURANT",
-  description: "De pratos clássicos a criações surpreendentes, nosso cardápio é um requinte de sabores refinados",
+  title: "WILTON´S RESTAURANT",
+  description: "Restorant con los mejores pratos clássicos a criações surpreendentes, nosso cardápio é um requinte de sabores refinados",
 };
 
 export default function RootLayout({ children }) {

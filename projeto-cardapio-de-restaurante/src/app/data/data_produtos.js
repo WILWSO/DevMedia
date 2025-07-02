@@ -43,7 +43,7 @@ export const produtos = [
     descricao:
       "Um delicioso espaguete que pode ser combinado com diversos molhos, como bolonhesa, carbonara, alho e oleo e pesto",
     imagem: espaguete,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const produtos = [
     descricao:
       "Uma maravilhosa lasanha com recheios variados como carne moída, frango, presunto e queijo, legumos e molho branco ou vermelho",
     imagem: lasanha,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ export const produtos = [
     descricao:
       "Uma massa recheada com diferentes ingredientes como queijo, carne, espinafre ou cogumelos",
     imagem: ravioli,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ export const produtos = [
     descricao:
       "Uma massa simples servida com diversos tipos de molhos como bolonhesa, carbonara, alfredo, pesto ou manteiga e sálvia",
     imagem: capeletti,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 5,
@@ -83,7 +83,7 @@ export const produtos = [
     descricao:
       "Massa feita de farinha de trigo e ovos, servida com molhos simples ou elaborados como, manteiga e parmesão, frango ao creme ou camarão alho e oleo",
     imagem: nhoque,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ export const produtos = [
     descricao:
       "Prato original da Itália, que leva fatias de pão italiano torrado, tomate picado, alho, manjericão e azeite",
     imagem: bruschetta,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 7,
@@ -103,7 +103,7 @@ export const produtos = [
     descricao:
       "Prato de origem francesa, que leva fatias finas de salmão cru, alcaparras, queijo parmesão ralado e molho mostarda",
     imagem: carpaccio,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 8,
@@ -113,7 +113,7 @@ export const produtos = [
     descricao:
       "Um prato tipico do leste da Espanha, que leva arroz e frutos do mar como mariscos, polvo, camarões, mexilhões e lulas",
     imagem: paella,
-    estacoes: ["Outono", "Inverno"],
+    estacoes: ["Primavera", "Otoño", "Invierno"],
   },
   {
     id: 9,
@@ -123,7 +123,7 @@ export const produtos = [
     descricao:
       "Prato tipico do Japão, que leva camarões empanados em massa tempurá, maionese e molho picante",
     imagem: ebiSpicy,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 10,
@@ -133,7 +133,7 @@ export const produtos = [
     descricao:
       "Um irrestivel purê de batata francês com queijo gruyere e meia cura",
     imagem: aligot,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 11,
@@ -143,7 +143,7 @@ export const produtos = [
     descricao:
       "Com pouca gordura e fibras, além de muito macia, essa carne vai bem com diversos tipos de molhos",
     imagem: fileMignon,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 12,
@@ -153,7 +153,7 @@ export const produtos = [
     descricao:
       "Uma execelente carne que tem uma capa de gordura e fibras generosas que acentuam o sabor e a maciez do corte",
     imagem: picanha,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 13,
@@ -163,7 +163,7 @@ export const produtos = [
     descricao:
       "Uma carne que tem um ótimo nível de marmoreio e um sabor delicado, podendendo ser feita tanto na grelha ou na frigideira",
     imagem: bifeAncho,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 14,
@@ -173,7 +173,7 @@ export const produtos = [
     descricao:
       "É uma carne que combina duas texturas e sabores diferentes em uma só peça, e pode ser feita na grelha ou no forno",
     imagem: tomahwankSteak,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño"],
   },
   {
     id: 15,
@@ -183,7 +183,7 @@ export const produtos = [
     descricao:
       "Parte dianteira da costela bovina, muito suculenta e saborosa, que pode ser feita na grelha ou no forno",
     imagem: primeRib,
-    estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 16,
@@ -194,6 +194,7 @@ export const produtos = [
       "Sobremesa italiana que leva pão de ló, café, queijo mascarpone, ovos, açucar e cacau em pó",
     imagem: tiramisu,
     estacoes: ["Primavera", "Verão", "Outono"],
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 17,
@@ -203,6 +204,7 @@ export const produtos = [
     descricao:
       "Típica sobremesa dos Estados Unidos, que leva bolo, cream cheese e calda de frutas",
     imagem: cheesecake,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 18,
@@ -212,6 +214,7 @@ export const produtos = [
     descricao:
       "Uma sobremesa inglesa, feita a base de biscoito triturado com manteiga, uma camada de doce de leite, banana fatiada e chantilly",
     imagem: banoffee,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 19,
@@ -221,6 +224,7 @@ export const produtos = [
     descricao:
       "Sobremesa de origem francesa, feita com massa folhada crocante e recheio cremoso de baunilha, chocolate ou frutas e açucar de confeiteiro",
     imagem: milFolhas,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 20,
@@ -230,6 +234,7 @@ export const produtos = [
     descricao:
       "Sobremesa cremosa e gelada muito popular no Brasil, feita com leite condesado, leite e ovos",
     imagem: pudim,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 21,
@@ -239,6 +244,7 @@ export const produtos = [
     descricao:
       "Cerveja artesanal de produção alemã que leva ingredientes nobres como malte, lúpulu, água e levedura ",
     imagem: cerveja,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 22,
@@ -248,6 +254,7 @@ export const produtos = [
     descricao:
       "Um refrescante refrigerante de cola com pequenos pedaços de limão e raspas de hortelã",
     imagem: refrigerante,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 23,
@@ -257,6 +264,7 @@ export const produtos = [
     descricao:
       "Mais puro suco de laranjas holandesas frescas e levemente adocicada",
     imagem: suco,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 24,
@@ -266,6 +274,7 @@ export const produtos = [
     descricao:
       "Um poderoso whiskey sabor bourbon, envelhecido em barris de carvalho branco carbonizado",
     imagem: whiskey,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 25,
@@ -274,6 +283,7 @@ export const produtos = [
     preco: 4.99,
     descricao: "Água mineral saborizada com limão siciliano",
     imagem: agua,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 26,
@@ -283,6 +293,7 @@ export const produtos = [
     descricao:
       "Salada preparada com alface-romana, torrada, queijo parmesão e molho Ceasar",
     imagem: saladaCeasar,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 27,
@@ -292,6 +303,7 @@ export const produtos = [
     descricao:
       "Uma salada italiana, feita com mussarela fresca, tomate e manjericão, temperada com sal e azeite",
     imagem: saladaCaprese,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 28,
@@ -301,6 +313,7 @@ export const produtos = [
     descricao:
       "Criada em 1893 no Waldorf Hotel, essa salada leva maçã verde fatiada e apio banhados ao suco de limão, nozes cortadas, maionese",
     imagem: saladaWaldorf,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 29,
@@ -310,6 +323,7 @@ export const produtos = [
     descricao:
       "Versão original da salada que leva tomate, pepino, pimentão, cebola roxa, pimenta-do-reino, orégano, azeite e queijo feta",
     imagem: saladaGrega,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 30,
@@ -317,8 +331,10 @@ export const produtos = [
     categoria: "Saladas",
     preco: 22.99,
     descricao:
-    `Salada tradicional da cidade de Nice, feita com tomate, ovos cozidos, 
-    azeitona niçoise, azeite e atum", imagem: saladaNicoise`,
+      `Salada tradicional da cidade de Nice, feita com tomate, ovos cozidos, 
+      azeitona niçoise, azeite e atum"`,
+    imagem: saladaNicoise,
+    estacoes: ["Primavera", "Verano", "Otoño"],
   },
   {
     id: 31,
@@ -328,6 +344,7 @@ export const produtos = [
     descricao:
       "Salada argentina feita com alface, tomate e cebola, manjericão à gosto.",
     imagem: ensaladaMistaArgentina,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
     id: 32, 
@@ -339,6 +356,7 @@ export const produtos = [
       e servida com molho à sua escolha: quatro queijos cremoso, vermelho de tomate ou ragu de carne. 
       Acompanha queijo parmesão ralado.`,
     imagem: nhoquesArgentinos,
+    estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
   },
   {
   id: 33,
@@ -348,7 +366,7 @@ export const produtos = [
   descricao:
     `Costela bovina assada lentamente na brasa, temperada apenas com sal grosso e servidos ao ponto perfeito.`,
   imagem: asadoArgentino,
-  estacoes: ["Primavera", "Verão", "Outono"],
+  estacoes: ["Primavera", "Verano", "Otoño", "Invierno"],
 },
 {
   id: 34,
@@ -360,7 +378,7 @@ export const produtos = [
     de tomates frescos e uma combinação de queijos derretidos. Finalizada ao forno com cobertura gratinada 
     e um toque de ervas`,
   imagem: polentaArgentina,
-  estacoes: ["Inverno"],
+  estacoes: ["Otoño", "Invierno"],
 },
 {
   id: 35,
@@ -371,6 +389,6 @@ export const produtos = [
     `Feito com milho branco, feijão, abóbora, linguiça artesanal, costelinha suína e carne bovina cozida lentamente 
     até atingir sabor e textura marcantes. Rústico, acolhedor e cheio de história — um prato para aquecer corpo e alma.`,
   imagem: locroArgentino,
-  estacoes: ["Inverno"],
+  estacoes: ["Invierno"],
 },
 ];

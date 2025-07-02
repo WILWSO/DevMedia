@@ -28,3 +28,22 @@ export const getProdutosPorEstacao = (estacao) => {
 
 export const getEstacao = getProdutosPorEstacao('');
     // Começa o site com todos os produtos indiferente da estacao.
+
+const Fecha = new Date(); // Cria uma nova data para obter o mês atual
+const mesActual = Fecha.getMonth() + 1; // Obtém o mês atual (0-11
+const diaActual = Fecha.getDate(); // Obtém o dia atual (1-31)
+
+export const estacaoAtual = () => { // Função para determinar a estação atual com base no mês e dia
+    if ((mesActual === 9 && diaActual >= 21) || (mesActual === 10) || (mesActual === 11) || (mesActual === 12 && diaActual < 21)) {
+      return "Primavera"; // Primavera de 21 de setembro a 20 de dezembro. 
+    }
+    if ((mesActual === 12 && diaActual >= 21) || (mesActual === 1) || (mesActual === 2) || (mesActual === 3 && diaActual < 21)) {
+      return "Verano"; // Verão de 21 de dezembro a 20 de março.
+    }
+    if ((mesActual === 3 && diaActual >= 21) || (mesActual === 4) || (mesActual === 5) || (mesActual === 6 && diaActual < 21)) {
+      return "Otoño"; // Outono de 21 de março a 20 de junho.
+    }
+    if ((mesActual === 6 && diaActual >= 21) || (mesActual === 7) || (mesActual === 8) || (mesActual === 9 && diaActual < 21)) {
+      return "Invierno"; // Inverno de 21 de junho a 20 de setembro.
+    }
+  }; 

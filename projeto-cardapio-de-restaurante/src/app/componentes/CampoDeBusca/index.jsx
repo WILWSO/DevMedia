@@ -1,6 +1,6 @@
 import estilos from './CampoDeBusca.module.css';
 import Image from 'next/image';
-import Lupa from '../../../../public/Lupa.png';
+import Lupa from '../../../../public/lupa.png';
 
 export default function CampoDeBusca({ textoBusca, aoDigitar }) {
   return (

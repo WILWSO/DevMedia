@@ -17,7 +17,8 @@ export default function Home() {
   const [textoBusca, setTextoBusca] = useState("");// Estado para armazenar o texto digitado no campo de busca
   const [botaoCategoria, setBotaoCategoria] = useState('Entradas'); // Estado para armazenar a categoria selecionada pelo botao
   const [botaoEstacao, setBotaoEstacao] = useState(""); // Estado para armazenar a estacao selecionada pelo botao
-  const todasEstacoes = ["Primavera", "Verão", "Outono", "Inverno"]; // Define as estações do ano
+  const todasEstacoes = ["Primavera", "Verano", "Otoño", "Invierno"]; // Define as estações do ano
+  
 
   const aoDigitar = (textoDigitado) => { // Função para atualizar o estado do texto digitado
     setTextoBusca(textoDigitado); // Atualiza o estado do texto de busca com o texto digitado no campo de busca
@@ -52,7 +53,7 @@ export default function Home() {
         </div>
       </header>          
       <main className={estilos.container_principal}>
-        <Estacoes estacoes={todasEstacoes} botaoEstacao={botaoEstacao} aoClicarEstacao={aoClicarEstacao}/>
+        {/*<Estacoes estacoes={todasEstacoes} botaoEstacao={botaoEstacao} aoClicarEstacao={aoClicarEstacao}/> */}
         <Categorias botaoCategoria={botaoCategoria} aoClicarCategoria={aoClicarCategoria}/>
         <CampoDeBusca textoBusca={textoBusca} aoDigitar={aoDigitar} />
         <section className={estilos.secao_cards}>
