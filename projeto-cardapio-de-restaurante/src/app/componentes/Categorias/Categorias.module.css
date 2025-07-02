@@ -17,7 +17,7 @@
 
 .container_botoes button {
   padding: 8px 0px;
-  flex: 1 1 120px; /*largura dos botões: pode crescer se houver espaço, pode encolher se necessário, valor do tamanho inicial*/
+  flex: 1 0 120px; /*largura dos botões: pode crescer se houver espaço, pode encolher se necessário, valor do tamanho inicial*/
   display: flex;
   align-items: center;
   justify-content: center;
