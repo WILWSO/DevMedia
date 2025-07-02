@@ -8,21 +8,25 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
+  border: 1px dotted goldenrod;
+  padding: 8px;
+  background: #f0f0f0;
+  border-radius: 14px;
 }
 
 .container_botoes button {
-  padding: 10px 0px;
-  flex: 1 1 150px;
+  padding: 8px 0px;
+  flex: 1 1 120px; /*largura dos botões: pode crescer se houver espaço, pode encolher se necessário, valor do tamanho inicial*/
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  font-size: 14px;
+  gap: 8px;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   border: 0;
-  border-radius: 4px;
+  border-radius: 14px;
 }
 
 .container_botoes button:hover,

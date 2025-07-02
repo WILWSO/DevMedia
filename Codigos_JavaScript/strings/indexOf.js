@@ -8,8 +8,8 @@ console.log("\n==============//INDEXOF SINTAXIS//===============\n");
 //O método indexOf() pode receber dois parâmetros: o primeiro é a substring que você deseja encontrar e o segundo é o índice a partir do qual você deseja começar a procurar. Se você não fornecer o segundo parâmetro, a pesquisa começará no início da string.
 
 let texto = "O Brasil é um país tropical"; //string
-let posicao = texto.indexOf("país"); //encontra a posição da substring "Brasil" na string
-console.log(posicao); //exibe a posição da substring "Brasil" na string
+let posicao = texto.indexOf("país"); //encontra a posição da substring "país" na string "O Brasil é um país tropical"
+console.log(posicao); //exibe a posição da substring "país" na string "O Brasil é um país tropical"
 
 //separador de resultados
 console.log("\n==============//INDEXOF UTILIDADE//===============\n");
